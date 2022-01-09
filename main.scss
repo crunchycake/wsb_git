@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 600px;
+	height: 600px;
+	left: 5px;
+	top: 5px;
+}
+
+.text {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.hero-img {
+	position: relative;
+	.img {
+		border-radius: 8px;
+	}
+}
+
+.text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	color: white;
+	text-shadow: 8px 8px 5px #150303;
+}
+
+.fas-ok {
+	position: absolute;
+	top: 15px;
+	right: 0;
+	font-size: 30px;
+	color: white;
+}
+
+.fas-pen {
+	position: absolute;
+	bottom: 15px;
+	right: 40px;
+	font-size: 30px;
+	color: black;
+}
+
+.location-arrow {
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	font-size: 30px;
+	color: black;
+}
+
+// JS
+
+.h1color {
+	color: red;
+}
+
+.bgc {
+	color: yellow;
+}
+
+.fontSize {
+	font-size: 50px;
+}
+
+// 1b6811
+
+.greenEye {
+	fill: #1b6811;
+}
+
+.blueEye {
+	fill: blue;
+}
