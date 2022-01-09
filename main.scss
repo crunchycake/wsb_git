@@ -1,8 +1,8 @@
-// * {
-// 	box-sizing: border-box;
-// 	margin: 0;
-// 	padding: 0;
-// }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 // .container {
 // 	width: 600px;
@@ -83,10 +83,16 @@
 // 	fill: blue;
 // }
 
+.text {
+    font-size: 26px;
+    text-align: center;
+    color: tomato;
+}
+
 p {
 	color: green;
 	font-size: 32px;
-    text-align: center;
+	text-align: center;
 }
 
 .commit {
@@ -94,26 +100,53 @@ p {
 	border: 1px solid black;
 	border-radius: 8px;
 	color: white;
-    text-align: center;
+	text-align: center;
 }
 .table {
 	width: 300px;
-    height: 170px;
-    position: absolute;
-    top:100px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background: burlywood;
-    font-family: 'Roboto', sans-serif;
-    border-bottom: 10px dotted;
-    
+	height: 190px;
+	position: relative;
+	top: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: burlywood;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 10px dotted brown;
 }
 .tableLi {
 	font-size: 36px;
 	color: rgb(38, 172, 196);
 }
 .tableLi:last-child {
-    color: blueviolet;
+	color: blueviolet;
+}
+
+.parent {
+	position: relative;
+	top: 300px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height: 300px;
+	overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 1em rgb(104, 212, 16);
+}
+
+.img {
+	display: block;
+	position: absolute;
+    
+}
+
+.empty {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+    
+    top: 1000px;
+    left: 50%;
+	transform: translate(-50%, -50%);
 }
