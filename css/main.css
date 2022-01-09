@@ -54,7 +54,7 @@ p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 450px;
+  width: 50%;
   height: 300px;
   overflow: hidden;
   border-radius: 8px;
